@@ -1,6 +1,9 @@
 import { Link } from "react-scroll";
 import '../CSS/NavBar.css'
+import { useState } from 'react';
+
 const NavBar = () => {  
+    const [showDropdown, setShowDropdown] = useState(false);
 return (
     <nav className="Navbar" >
         <ul
@@ -13,11 +16,28 @@ return (
         <li className="navli"><Link to="Internship" smooth={true} duration={500}>Internship</Link></li>
         <li className="navli"><Link to="Achivements" smooth={true} duration={500}>Achivements</Link></li>
         <li className="navli"><Link to="Contact" smooth={true} duration={500}>Contact</Link></li>
+
+
+
+        <li 
+                    className="resume-dropdown"
+                    onMouseEnter={() => setShowDropdown(true)}
+                    onMouseLeave={() => setShowDropdown(false)}
+                >
+                    <button className="resume-btn">Resume ▼</button>
+                    
+                    {showDropdown && (
+                        <div className="dropdown-menu">
+                            <a href="\public\SaiPrasath-Resume .pdf" target="_blank" rel="noopener noreferrer" className="dropdown-item">View Resume</a>
+                            <a href="\public\SaiPrasath-Resume .pdf" download="Sai_Prasath_Resume.pdf" className="dropdown-item">Download Resume</a>
+                        </div>
+                    )}
+                </li>
        
         </ul>
 
     </nav>
 )
-
+    
 }
 export default NavBar;  
