@@ -1,0 +1,27 @@
+.about-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;      
+    height: 300px;
+    text-align: center;
+}
+
+.about-content {
+    max-width: 600px; 
+    padding: 20px;
+    border-radius: 10px;
+    color: #D9D9D9 ;
+    font-size: 20px;
+    line-height: 1.5;
+    background-color: #121212;
+    border-radius: 10px;
+}
+
+.about-content hr {
+    background: white;
+}
+#About{
+    padding: 50px;
+    margin-bottom: 0px;
+
+}

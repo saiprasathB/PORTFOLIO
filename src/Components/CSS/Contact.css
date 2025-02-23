@@ -1,0 +1,59 @@
+#Contact {
+  text-align: center;
+  padding: 80px;
+ 
+}
+
+#Contact h2 {
+  font-size: 40px;
+  color: white;
+}
+
+#Contact p {
+  font-size: 1.2rem;
+  color: white;
+  max-width: 600px;
+  margin: 0 auto 20px auto;
+  line-height: 1.6;
+  background-color: #121212;
+  border-radius: 10px;
+  padding-top: 20px;
+}
+
+.contact-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.contact-container a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  color: #0077b5;
+  font-size: 20px;
+  font-weight: bold;
+  background: #fff;
+  padding: 10px 15px;
+  border-radius: 8px;
+  
+}
+
+.contact-container a:hover {
+  background: #0077b5;
+  color: white;
+  transform: scale(1.05);
+}
+
+.contact-container a:nth-child(2) { color: #171515; } 
+.contact-container a:nth-child(3) { color: #c71610; } 
+.contact-container a:nth-child(4) { color: #25d366; }
+
+.contact-container a:nth-child(2):hover { background: #171515; color: white; }
+.contact-container a:nth-child(3):hover { background: #c71610; color: white; }
+.contact-container a:nth-child(4):hover { background: #25d366; color: white; }
+
+

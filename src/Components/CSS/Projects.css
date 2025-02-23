@@ -1,0 +1,48 @@
+#Projects {
+    padding: 80px;
+    color: white;
+    text-align: center;
+}
+
+.projects-heading {
+    font-size: 40px;
+    margin-bottom: 30px;
+    color: #FF9F1C;
+}
+
+.projects-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.project-card {
+    flex: 1;
+    min-width: 300px;
+    max-width: 350px;
+    background-color: #121212;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.project-card h3 {
+    font-size: 25px;
+    color: white;
+}
+
+.project-card p {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    color: #D9D9D9 ;
+}
+
+.project-card ul {
+    list-style-type: disc;
+    padding: 0;
+}
+
+.project-card li{
+    font-size: 1.2rem;
+}

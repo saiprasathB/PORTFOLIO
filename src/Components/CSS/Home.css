@@ -1,0 +1,21 @@
+.home-container {
+    justify-content: center; 
+    height: 200px;
+    
+    text-align: center;
+      
+}
+
+.home-content h1 {
+   margin-bottom: 0;
+    font-size: 50px;
+    color: #fc9666;
+}
+
+.home-content h2 {
+    color: white;
+}
+#Home{
+    padding-top: 100px;
+    padding-bottom: 150px;
+}
