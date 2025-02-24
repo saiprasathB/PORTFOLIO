@@ -87,7 +87,7 @@ const StarryBackground = () => {
         top: 0,
         left: 0,
         zIndex: -1,
-        background: "black",
+        
       }}
     />
   );

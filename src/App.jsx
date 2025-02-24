@@ -14,7 +14,7 @@ function App() {
 
   return (
     <><div>
-     {/* <StarryBackground></StarryBackground> */}
+     <StarryBackground></StarryBackground>
      <NavBar></NavBar>
       <Home></Home>
       <About></About>
