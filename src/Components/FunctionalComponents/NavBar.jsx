@@ -28,7 +28,7 @@ return (
                     
                     {showDropdown && (
                         <div className="dropdown-menu">
-                            <a href="\public\SaiPrasath-Resume .pdf" target="_blank" rel="noopener noreferrer" className="dropdown-item">View Resume</a>
+                            <a href="https://drive.google.com/file/d/1NJ_sHDYQZ8TQ9bV-c1SSE8PKXj28vzlu/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="dropdown-item">View Resume</a>
                             <a href="\public\SaiPrasath-Resume .pdf" download="Sai_Prasath_Resume.pdf" className="dropdown-item">Download Resume</a>
                         </div>
                     )}
